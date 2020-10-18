@@ -7,9 +7,10 @@ const colors = [
     '#74ff1d',
 ]
 
-function createSquare(){
+function createSquare()
+{
     const section = document.querySelector('section');
-    const square = document.createElement('span');
+    const square = document.createElement('aside');
 
     var size = Math.random() * 50;
 
@@ -30,4 +31,12 @@ function createSquare(){
     },5000)
 }
 setInterval(createSquare, 10)
+}
+
+function toggleMenu()
+{
+let navigation = document.querySelector('.navigation');
+let toggle = document.querySelector('.toggle');
+navigation.classList.toggle('active');
+toggle.classList.toggle('active');
 }
