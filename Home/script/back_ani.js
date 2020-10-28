@@ -1,3 +1,4 @@
+
 function f_background(){
 
 const colors = [
@@ -11,6 +12,7 @@ function createSquare()
 {
     const section = document.querySelector('section');
     const square = document.createElement('aside');
+    square.setAttribute( "id", "back_square");
 
     var size = Math.random() * 50;
 
@@ -31,12 +33,4 @@ function createSquare()
     },5000)
 }
 setInterval(createSquare, 10)
-}
-
-function toggleMenu()
-{
-let navigation = document.querySelector('.navigation');
-let toggle = document.querySelector('.toggle');
-navigation.classList.toggle('active');
-toggle.classList.toggle('active');
 }

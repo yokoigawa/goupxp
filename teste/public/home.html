@@ -1,52 +1,21 @@
 <!DOCTYPE html>
-    <html lang="pt-br">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<html lang="pt-br">
+<meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Home</title>
 
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  
-  <!--ESTILOS-->
-  <link rel="stylesheet" href="Css/back_ani.css" />
-  <link rel="stylesheet" href="Css/home.css" />
-  <link rel="stylesheet" href="Css/menu.css" />
-  <link rel="stylesheet" href="Css/toggler.css" />
-
-  <!--SCRIPTS-->
-  <script defer src="script/back_ani.js"></script>
-  <script defer src="script/home.js"></script>
-  <script defer src="script/tema.js"></script>
-
-  <!--SCRIPT ANIMAÇÃO TOGGLE-->
-  <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
-  <script type="text/javascript">
-  $(document).ready(function(){
-    $('.toggle-btn').click(function(){
-      $('.toggle-btn').toggleClass('active')
-       
-    })
-  })
-  </script>
-  <!--FONTES-->
+  <script defer src="script.js"></script>
+  <link rel="stylesheet" href="home.css" />
   <link
     href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap"
     rel="stylesheet"
   />
-
 </head>
 
 <body onload="f_background()">
-  <div class="toggle-btn" onclick="toggleSidebar()">
-
-    <input type="checkbox" class="toggler">
-    <span class="hamburger">
-      <span></span>
-    </span>
-    
-  </div>
-  <nav class="navbar" id="navbar">
+  <nav class="navbar">
     <ul class="navbar-nav">
       <li class="logo">
         <a href="#" class="nav-link">
@@ -492,7 +461,6 @@
       </li>
     </ul>
   </nav>
-  
   <header>
 
   </header>
