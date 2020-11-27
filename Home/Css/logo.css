@@ -1,0 +1,191 @@
+/* header */
+header
+{
+  background: linear-gradient(to bottom, #320352 0%, #000000 100%);
+  margin: 0;
+  padding: 0;
+  display:flex;
+  justify-content: center;
+  align-items: center;   
+  min-height: 100vh;
+  z-index: -1;
+  position: relative;
+  border: rgb(72, 255, 0) solid;
+}
+.logoGoup{
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;  
+  background-color: transparent;
+  box-sizing: 100px;
+  padding: 10px;
+  width: 100%;
+}
+.logoGoup img{
+  width: 100%;
+  max-width: 800px;
+  position: absolute;
+  opacity: 0;  
+}
+.logoGoup img:nth-child(1){
+  -webkit-animation-delay: 0s;
+  -webkit-animation: opacity 8s linear infinite;
+  -moz-animation-delay: 0s;
+  -moz-animation: opacity 8s linear infinite;
+  animation: opacity 3s linear infinite;
+  animation-delay: 0s;
+}
+@keyframes opacity{
+  0%{opacity: 0;}
+  50%{opacity: 1;}
+  100%{opacity: 0;}
+}
+@-moz-keyframes opacity{
+  0%{opacity: 0;}
+  50%{opacity: 1;}
+  100%{opacity: 0;}
+}
+@-webkit-keyframes opacity{
+  0%{opacity: 0;}
+  50%{opacity: 1;}
+  100%{opacity: 0;}
+}
+.logoGoup img:nth-child(2){
+  -webkit-animation: opacity 10s linear infinite;
+  -moz-animation: opacity 10s linear infinite;
+  animation: opacity1 10s linear infinite;
+}
+@keyframes opacity1{
+  0%{opacity: 0.2;}
+  6.25%{opacity: 0.4;}
+  12.5%{opacity: 0.6;}
+  17.75%{opacity: 0.8;}
+  25%{opacity: 1;}
+  93.75%{opacity: 0;}
+  100%{opacity: 0;}
+}
+@-moz-keyframes opacity1{
+  0%{opacity: 0.2;}
+  6.25%{opacity: 0.4;}
+  12.5%{opacity: 0.6;}
+  17.75%{opacity: 0.8;}
+  25%{opacity: 1;}
+  93.75%{opacity: 0;}
+  100%{opacity: 0;}
+}
+@-webkit-keyframes opacity1{
+  0%{opacity: 0.2;}
+  6.25%{opacity: 0.4;}
+  12.5%{opacity: 0.6;}
+  17.75%{opacity: 0.8;}
+  25%{opacity: 1;}
+  93.75%{opacity: 0;}
+  100%{opacity: 0;}
+}
+.logoGoup img:nth-child(3){
+  -webkit-animation: opacity 10s linear infinite;
+  -moz-animation: opacity 10s linear infinite;
+  animation: opacity2 10s linear infinite;
+}
+@keyframes opacity2{
+  0%{opacity: 0;}
+  25%{opacity: 0.2;}
+  31.25%{opacity: 0.4;}
+  37.5%{opacity: 0.6;}
+  43.75%{opacity: 0.8;}
+  50%{opacity: 1;}
+  100%{opacity: 0;}
+}
+@-moz-keyframes opacity2{
+  0%{opacity: 0;}
+  25%{opacity: 0.2;}
+  31.25%{opacity: 0.4;}
+  37.5%{opacity: 0.6;}
+  43.75%{opacity: 0.8;}
+  50%{opacity: 1;}
+  100%{opacity: 0;}
+}
+@-webkit-keyframes opacity2{
+  0%{opacity: 0;}
+  25%{opacity: 0.2;}
+  31.25%{opacity: 0.4;}
+  37.5%{opacity: 0.6;}
+  43.75%{opacity: 0.8;}
+  50%{opacity: 1;}
+  100%{opacity: 0;}
+}
+.logoGoup img:nth-child(4){
+  -webkit-animation: opacity 10s linear infinite;
+  -moz-animation: opacity 10s linear infinite;
+  animation: opacity3 10s linear infinite;
+}
+@keyframes opacity3{
+  0%{opacity: 0;}
+  50%{opacity: 0.2;}
+  56.25%{opacity: 0.4;}
+  62.5%{opacity:0.6;}
+  68.75%{opacity: 0.8;}
+  75%{opacity: 1;}
+  100%{opacity: 0;}
+} 
+@-moz-keyframes opacity3{
+  0%{opacity: 0;}
+  50%{opacity: 0.2;}
+  56.25%{opacity: 0.4;}
+  62.5%{opacity:0.6;}
+  68.75%{opacity: 0.8;}
+  75%{opacity: 1;}
+  100%{opacity: 0;}
+} 
+@-webkit-keyframes opacity3{
+  0%{opacity: 0;}
+  50%{opacity: 0.2;}
+  56.25%{opacity: 0.4;}
+  62.5%{opacity:0.6;}
+  68.75%{opacity: 0.8;}
+  75%{opacity: 1;}
+  100%{opacity: 0;}
+} 
+.logoGoup img:nth-child(5){
+-webkit-animation: opacity 10s linear infinite;
+-moz-animation: opacity 10s linear infinite;
+animation: opacity4 10s linear infinite;
+}
+@keyframes opacity4{
+  0%{opacity: 1;}
+  6.25%{opacity: 0;}
+  75%{opacity: 0.2;}
+  81.25%{opacity: 0.4;}
+  87.5%{opacity: 0.6;}
+  93.75%{opacity: 0.8;}
+  100%{opacity: 1;}
+}
+@-moz-keyframes opacity4{
+  0%{opacity: 1;}
+  6.25%{opacity: 0;}
+  75%{opacity: 0.2;}
+  81.25%{opacity: 0.4;}
+  87.5%{opacity: 0.6;}
+  93.75%{opacity: 0.8;}
+  100%{opacity: 1;}
+}
+@-webkit-keyframes opacity4{
+  0%{opacity: 1;}
+  6.25%{opacity: 0;}
+  75%{opacity: 0.2;}
+  81.25%{opacity: 0.4;}
+  87.5%{opacity: 0.6;}
+  93.75%{opacity: 0.8;}
+  100%{opacity: 1;}
+}
+#logoGoup{
+  display: block;
+  position: absolute;
+  margin-bottom: -250px;
+  margin-right: center;
+  color: white;  
+}
+#logoGoup h1{
+  font-size: min(3.2rem, 6.5vw) ;
+}

@@ -57,4 +57,7 @@ function f_background(){
   }
   setInterval(createSquare, 10)
   }
-  
+  // Função esconder barra
+function toggleSidebar() {
+  document.getElementById("wrapper").classList.toggle('active');
+  }
