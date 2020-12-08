@@ -9,9 +9,7 @@ header
   align-items: center;   
   min-height: 100vh;
   z-index: -1;
-  position: relative;
-  border: rgb(72, 255, 0) solid;
-}
+  position: relative;}
 .logoGoup{
   display: flex;
   position: relative;

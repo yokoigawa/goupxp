@@ -9,44 +9,73 @@
 body {
   margin: 0;
   padding: 0;
-  background:#010615; 
-}
-main{
-  
-  border: rgb(255, 251, 0) solid;
-}
+  background:#010615; }
 main h1 {
   text-align: justify;
-  margin-left: 5rem;
-  margin-right: 3rem;
+  margin-left: 3.5rem;
+  margin-right: 3.5rem;
   padding: 1rem;
   color: rgb(238, 118, 238);
   }  
 main p {
   text-align: justify;
-  margin-left: 5rem;
-  margin-right: 3rem;
+  margin-left: 3.5rem;
+  margin-right: 3.5rem;
   padding: 1rem;
   color: rgb(96, 145, 202);
 }
 main .base1{
-  min-height: 100vh;
-  height: 800px;
-  margin: 0;
-  margin-top: -22px;
-  padding: 0;
-  display: flexbox;
-  position: relative;
-  background-color: black;
-  z-index: -1;
-}
-main .mosaico{
-  display: flexbox;
-  position: absolute;
-  z-index: -1;
-  max-width: 100%;
+  max-height: 100vh;
+  padding-top: 100px;
+  height: 650px;
+  z-index: -1; 
+  border: 0.1px solid rgba(141, 24, 24, 0);
+  display: flex;
+  align-items: center;
+  align-content: center;
+  
 }
 
+main .mosaico
+{
+  position: absolute;
+  z-index: -1;
+  max-width: 100vh;
+  opacity: 0.5;
+  
+}
+
+.mosaico img {
+  max-width: 99vw;
+  }
+
+.cxbase1{
+  margin-left: auto;
+  margin-right: auto;
+  
+  max-width: 1050px;
+  align-items: center;
+  background: rgba(115, 34, 139, 0.384);
+  border-radius: 15px;
+}
+main .cxbase1 p{
+  
+ 
+  color: white;
+  font-size: min(1.5rem,6vw);
+  text-shadow: 2px 2px 5px white;
+
+  
+}
+main .cxbase1 h1{
+  
+  color: white;
+  font-size: min(2rem,6vw);
+  text-shadow: 2px 2px 5px white;
+  text-align: center;
+
+  
+}
 
 main .base2{
   display: flex;
@@ -66,17 +95,16 @@ main .base2{
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 40px;
+  margin: 35px;
   background: #060c21;
   transition: 0.5s;
 }
 .box:hover{
   height: 400px;
 }
-.box .imgpla{
-  width: 70%;
-  height: 45%;
-  opacity: 0.8;
+.box .imgpla
+{
+  opacity: 0.5;
 }
 .box .imgBx{
   position: absolute;
@@ -118,23 +146,23 @@ main .base2{
 }
 .box:before,
 .box:after{
-  background: linear-gradient(235deg,#89ff00,#010615,#00bcd4);
+  background: linear-gradient(235deg,#00bcd4,#010615,#00eeff);
 }
 .box:nth-child(4):before,
 .box:nth-child(4):after{
-  background: linear-gradient(235deg,#ff005e,#010615,#fbff00);
+  background: linear-gradient(235deg,#ff005e,#010615,#ff5e00);
 }
 .box:nth-child(5):before,
 .box:nth-child(5):after{
-  background: linear-gradient(235deg,#772aff,#010615,#2196f3);
+  background: linear-gradient(235deg,#bc2aff,#010615,#f321e2);
 }
 .box:nth-child(6):before,
 .box:nth-child(6):after{
-  background: linear-gradient(235deg,#00bcd4,#010615,#ff005e);
+  background: linear-gradient(235deg,#71d400,#010615,#00ff62);
 }
 .box:nth-child(7):before,
 .box:nth-child(7):after{
-  background: linear-gradient(235deg,#fbff00,#010615,#772aff);
+  background: linear-gradient(235deg,#fbff00,#010615,#ffbc2a);
 }
 .box .content{
   position: absolute;
@@ -174,5 +202,14 @@ main .base2{
   main p{
     margin: 0rem;
     }
+  .box{
+    width: 280px;
+    height: 280px;
+    margin: 20px;
+  }
+  .box:hover{
+    height: 380px;
+  }
+    
   }
   
